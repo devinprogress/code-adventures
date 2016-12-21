@@ -1,2 +1,1 @@
 # code-adventures
-sajt
