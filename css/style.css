@@ -54,7 +54,7 @@ nav ul li a {
 	color: whitesmoke;
 }
 
-nav ul li a: hover {
+nav ul li a:hover {
 	opacity: 0.8;
 }
 
@@ -112,7 +112,7 @@ img {
 }
 
 .project section p {
-	font-size: 13px;
+	font-size: 16px;
 	color: #242424;
 }
 
@@ -121,14 +121,7 @@ p {
 }
 
 footer {
-	display: block;
 	text-align: center;
-}
-
-hr {
-	box-sizing: content-box;
-	height: 0;
-	overflow: visible;
 }
 
 
@@ -230,11 +223,11 @@ footer span:hover {
 	}
 
 	.project h1 {
-		font-size: 25px !important;
+		font-size: 25px;
 	}
 
 	.project p {
-		font-size: 16px !important;
+		font-size: 16px;
 	}
 
 	#profile-photo {
