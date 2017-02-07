@@ -20,13 +20,13 @@
 <div class="container-fluid">
 
 <!--header begins-->
-<header>
 
-<div class="navbar header sticky_navbar">
+<div class="navbar header navbar-fixed-top" role="navigation">
 <div class="container">
-<div class="navbar-header">
-	<a class="navbar logo" href="index.html">Lila</a>
-	
+<div class="header_logo">
+	<a class="navbar-brand logo" href="index.html">Lila</a>
+</div>
+<!--end header_logo-->
 	<nav>
 		<ul class="nav navbar-nav navbar-right">
 			<li class="#home selected"><a href="#">Home</a></li>
@@ -41,31 +41,33 @@
 
 </div>
 </div>
-</div>
-</header>	
+</div>	
 <!--header ends-->
 
-<section id="home" class="home text-center" img class="img-responsive" style="background-image:url('http://media.pixcove.com/W/3/5/Urban-Crowd-People-Adults-Free-Image-Citizens-Stre-1436.jpg')" alt="People walking in the city">
+<section id="home" class="home home_full_screen text-center" style="background-image: url('http://media.pixcove.com/W/3/5/Urban-Crowd-People-Adults-Free-Image-Citizens-Stre-1436.jpg')">
 <div class="bg-overlay opacity-6"></div>
+<div>
 <div class="container">
 	<h1>Creative Multipurpose Landing Page</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat arcu ut orci porta, eget porttitor felis suscipit. Sed a nisl ullamcorper, tempus augue at, rutrum lacus. Duis et turpis eros.</p>
+	<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat arcu ut orci porta, eget porttitor felis suscipit. Sed a nisl ullamcorper, tempus augue at, rutrum lacus. Duis et turpis eros.</p>
 	<a href="#" class="btn btn_blue_black">Learn More</a>
 	<a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="video-btn btn"><i class="fa fa-play"></i> Watch Video</a>
 </div>
+</div>
 </section>
 
+<!--about us-->
 <section class="welcome bg-light">
 <div class="container">
-<div class="section_title">
 <div class="row">
 <div class="col-xs-12 text-center">
+<div class="section_title">
 <h6>WELCOME TO SETH</h6>
 <h3>We Are Smart Creative Agency</h3>
 </div>
 </div>
 </div>
-</div>
+
 <div class="row">
 <div class="col-xs-12">
 <p class="title_desc text-center">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
@@ -97,7 +99,7 @@
 	</div>
 	</div>
 
-	<div class="col-xs-12 col-sm-6 col-xs-12">
+	<div class="col-xs-12 col-sm-6 col-md-3">
 	<div class="content_box">
 	<i class="fa fa-comments-o"></i>
 	<h5>Full Support</h5>
@@ -105,8 +107,9 @@
 	</div>
 	</div>
 </div>
-</section><!--home section ends-->
+</section>
 
+<!--services-->
 <section id="services" class="bg-grey">
 	<div class="container">
 	<div class="row">
@@ -120,7 +123,7 @@
 	</div>
 
 	<div class="row">
-		<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 		<div class="content_box_2">
 			<i class="fa fa-line-chart"></i>
 			<h5>Branding</h5>
@@ -128,7 +131,7 @@
 		</div>
 		</div>
 
-		<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 		<div class="content_box_2">
 			<i class="fa fa-pencil-square-o"></i>
 			<h5>Web Design</h5>
@@ -136,7 +139,7 @@
 		</div>
 		</div>
 
-		<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 		<div class="content_box_2">
 			<i class="fa fa-paint-brush"></i>
 			<h5>Graphic Design</h5>
@@ -144,7 +147,7 @@
 		</div>
 		</div>
 
-		<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 		<div class="content_box_2">
 			<i class="fa fa-wrench"></i>
 			<h5>web development</h5>
@@ -152,7 +155,7 @@
 		</div>
 		</div>
 
-		<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 		<div class="content_box_2">
 			<i class="fa fa-tablet"></i>
 			<h5>app development</h5>
@@ -160,7 +163,7 @@
 		</div>
 		</div>
 
-		<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="col-xs-12 col-sm-6 col-md-4">
 		<div class="content_box_2">
 			<i class="fa fa-camera"></i>
 			<h5>Photography</h5>
@@ -184,10 +187,10 @@
 </div>
 </div>
 </div>
-</div>
 
-<div class="row">
-<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="content_container">
+<!--<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-3">-->
 	<ul class="portfolio-categories">
 		<li class="active">All</li>
 		<li>Web Design</li>
@@ -325,6 +328,8 @@
 		</div>
 		</a>
 		</div>
+
+		</div>
 		</div>
 		</div>
 		</section>
@@ -392,7 +397,9 @@
 </div>
 </div>
 
-	
+<div class="container">
+<div class="row">	
+	<div class="col-xs-12 col-sm-6 col-md-3">
 	<div class="team_members">
 		<div class="team_box">
 			<img class="img-rounded" src="http://keenthemes.com/preview/metronic/theme/assets/pages/media/profile/profile_user.jpg" alt="" style="width: 130px; height: 130px";>
@@ -423,7 +430,9 @@
 			</ul>
 		</div>
 		</div>
-
+	</div>
+	
+		<div class="col-xs-12 col-sm-6 col-md-3">
 		<div class="team_members">
 		<div class="team_box">
 			<img class="img-rounded" src="http://i.dailymail.co.uk/i/pix/2016/05/23/22/348B850600000578-3605456-image-m-32_1464040491071.jpg" alt="" style="width: 130px; height: 130px";>
@@ -454,7 +463,9 @@
 			</ul>
 		</div>
 		</div>
+	</div>
 
+	<div class="col-xs-12 col-sm-6 col-md-3">
 		<div class="team_members">
 		<div class="team_box">
 			<img class="img-rounded" src="http://i2.cdn.cnn.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-full-169.jpg" alt="" style="width: 130px; height: 130px";>
@@ -485,7 +496,9 @@
 			</ul>
 		</div>
 		</div>
+	</div>
 
+	<div class="col-xs-12 col-sm-6 col-md-3">
 		<div class="team_members">
 		<div class="team_box">
 			<img class="img-rounded" src="http://www.ibix.com/images/IBIX_Control_Personal.jpg" alt="" style="width: 130px; height: 130px";>
@@ -516,7 +529,10 @@
 			</ul>
 		</div>
 		</div>
+	</div>
 
+	</div>
+	</div>
 	</div>
 	</div>
 </section><!--team section ends-->
@@ -539,9 +555,43 @@
 		<h4>A Modular Approach</h4>
 		<p class="expl">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted.</p>
 	</div>
-	<div class="row">
-	<div class="col-md-6 col-xs-12">
-		<div class="progress-bar">
+
+	<!--<div class="row">-->
+	<div class="col-md-6 col-md-offset-1 col-xs-12">
+		<div class="progress_bar">
+
+			<div class="single_progressbar">
+				<div class="skill_text">
+					<span>Branding</span>
+					<span class="pull-right skill_bar">64%</span>
+				</div>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" data-transitiongoal="64" style="width: 64%;" aria-valuenow="64"></div>
+				</div>
+			
+
+			
+			<div class="single_progressbar">
+				<!--<div class="progress_bar_text">-->
+				<div class="skill_text">
+					<span>Web Design</span>
+					<span class="pull-right skill_bar">80%</span>
+				</div>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" data-transitiongoal="80" style="width: 80%;" aria-valuenow="80"></div>
+				</div>
+			</div>
+
+			
+			<div class="single_progressbar">
+				<div class="skill_text">
+					<span>Web Development</span>
+					<span class="pull-right skill_bar">95%</span>
+				</div>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" data-transitiongoal="95" style="width: 95%;" aria-valuenow="95"></div>
+				</div>
+			</div>
 
 			<div class="single_progressbar">
 				<div class="skill_text">
@@ -553,54 +603,24 @@
 				</div>
 			</div>
 
-			
-			<div class="single_progress_bar">
-				<div class="progress_bar_text">
+			<div class="single_progressbar">
 				<div class="skill_text">
 					<span>Web Design</span>
 					<span class="pull-right skill_bar">80%</span>
 				</div>
 				<div class="progress">
-					<div class="progress_bar" role="progressbar" data-transitiongoal="80" style="width: 80%;" aria-valuenow="80"></div>
+					<div class="progress-bar" role="progressbar" data-transitiongoal="80" style="width: 80%;" aria-valuenow="80"></div>
 				</div>
 			</div>
 
-			
-			<div class="single_progress_bar">
-				<div class="progress_bar_text">
-					<span>Web Development</span>
-					<span class="pull-right skill_bar">95%</span>
-				</div>
-				<div class="progress">
-					<div class="progress_bar" role="progressbar" data-transitiongoal="95" style="width: 95%;" aria-valuenow="95"></div>
-				</div>
 			</div>
-
-			<div class="single_progress_bar">
-				<div class="progress_bar_text">
-					<span>Branding</span>
-					<span class="pull-right skill_bar">64%</span>
-				</div>
-				<div class="progress">
-					<div class="progress_bar" role="progressbar" data-transitiongoal="64" style="width: 64%;" aria-valuenow="64"></div>
-				</div>
-			</div>
-
-			<div class="single_progress_bar">
-				<div class="progress_bar_text">
-					<span>Web Design</span>
-					<span class="pull-right skill_bar">80%</span>
-				</div>
-				<div class="progress">
-					<div class="progress_bar" role="progressbar" data-transitiongoal="80" style="width: 80%;" aria-valuenow="80"></div>
-				</div>
-			</div>
-			</div>
-
+		</div>
+	</div>
+	</div>
+</section>
 	
 			
 			
-			</section><!--skills section ends-->
 
 <!--testimonials section starts-->
 <section class="testimonials" style="background-image: url('http://st.depositphotos.com/1039548/4547/v/450/depositphotos_45475963-stock-video-business-people-making-their-way.jpg')">
@@ -682,6 +702,8 @@
 </div>
 </section><!--testimonials section ends-->
 
+
+
 <!--pricing section begins-->
 <section id="pricing" class="bg-grey">
 <div class="container">
@@ -719,10 +741,9 @@
 			</div>
 		</div>
 	</div>
-	</div>
 
-	<div class="row">
-		<div class="col col-xs-12 col-sm-4">
+
+		<div class="col-xs-12 col-sm-4">
 		<div class="price_box">
 			<div class="price_header text-center">
 				<div class="plan_name">Professional</div>
@@ -745,9 +766,8 @@
 			</div>
 		</div>
 	</div>
-	</div>
 
-	<div class="row">
+	
 		<div class="col-xs-12 col-sm-4">
 		<div class="price_box">
 			<div class="price_header text-center">
@@ -771,8 +791,6 @@
 			</div>
 		</div>
 		</div>
-	</div>
-</div>
 </section><!--pricing section ends-->
 
 <!--blog section begins-->
@@ -788,7 +806,8 @@
 		</div>
 	</div>
 
-	
+<div class="row">	
+<div class="col-xs-12 col-sm-6 col-md-3">
 	<div class="blog_item" style="width: 375px";>
 		<div class="blog_box">
 			<div class="blog_img">
@@ -801,7 +820,13 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	
 
+
+
+
+	<div class="col-xs-12 col-sm-6 col-md-3">
 		<div class="blog_item" style="width: 375px";>
 			<div class="blog_box">
 				<div class="blog_img">
@@ -814,7 +839,12 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	
 
+
+
+	<div class="col-xs-12 col-sm-6 col-md-3">
 		<div class="blog_item" style="width: 375px";>
 			<div class="blog_box">
 				<div class="blog_img">
@@ -827,11 +857,15 @@
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<div class="blog_item" style="width: 375px";>
+
+
+	<div class="col-xs-12 col-sm-6 col-md-3">
+		<div class="blog_item" style="width: 360px";>
 			<div class="blog_box">
 				<div class="blog_img">
-					<img src="http://pre08.deviantart.net/dd0e/th/pre/f/2013/004/3/7/sprinklers_prskalice_by_irena88-d5qe3nl.jpg" alt="sprinklers" style="width: 375px; height: 220px";>
+					<img src="http://pre08.deviantart.net/dd0e/th/pre/f/2013/004/3/7/sprinklers_prskalice_by_irena88-d5qe3nl.jpg" alt="sprinklers" style="width: 360px; height: 220px";>
 					<h5>Amazing Blog Post One</h5>
 					<p>Lorem ipsum dolor sit amet, consectetuer elit, consectetuer adpiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
 					<div class="blog_footer_btn">
@@ -840,8 +874,9 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
+
+
 </section><!--blog section ends-->
 
 <!--contact section begins-->
@@ -933,7 +968,7 @@
 <footer class="bg-dark">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-md-4 about">
+			<div class="col-sm-6 col-md-3 about">
 				<h4 class="logo">Lila</h4>
 				<p>Architecto beatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel sapien et lacus tempus varius. In finibus lorem vel.</p>
 				<ul class="footer-social">
@@ -960,7 +995,7 @@
 				</ul>
 			</div>
 
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-3 text-center">
 				<h5 class="footer_header">Useful Links</h5>
 				<ul class="footer_list">
 					<li>
